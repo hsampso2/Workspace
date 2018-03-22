@@ -46,6 +46,7 @@ checkPushButton(uint32_t time)
 	switch (code) {
 	case 1:
 		uprintf("%s\n\r", "SW1 is pushed.");
+		ledTurnOnOff(false, false, false);
 		delay = 250;							// Use an inertia for soft debouncing
 		break;
 

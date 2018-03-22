@@ -15,8 +15,8 @@ ORDERED_OBJS += \
 "../tm4c123gh6pm.cmd" \
 $(GEN_CMDS__FLAG) \
 -llibc.a \
--l"C:/Users/hsamp/Downloads/Util/Util/Debug/Util.lib" \
 -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" \
+-l"C:/Users/hsamp/Util/Util/Debug/Util.lib" \
 
 -include ../makefile.init
 

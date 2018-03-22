@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v16.9.6                     
 ******************************************************************************
->> Linked Tue Jan 30 09:28:58 2018
+>> Linked Sun Feb 04 02:51:57 2018
 
 OUTPUT FILE NAME:   <Lab1.out>
 ENTRY POINT SYMBOL: "_c_int00"  address: 000028cd
@@ -152,7 +152,7 @@ MODULE SUMMARY
     +--+------------------------------+-------+---------+---------+
        Total:                         376     620       5      
                                                                
-    C:/Users/hsamp/Downloads/Util/Util/Debug/Util.lib
+    C:/Users/hsamp/Util/Util/Debug/Util.lib
        launchpad.obj                  976     0         140    
        uart.obj                       196     0         0      
        led.obj                        156     0         1      
@@ -333,7 +333,7 @@ ffffffff  binit
 000023f3  ledTurnOnOff                   
 000016b7  lpInit                         
 00002975  ltoa                           
-00001c25  main                           
+00001c2f  main                           
 20000718  main_func_sp                   
 00002c35  memccpy                        
 00002459  memcpy                         
@@ -385,7 +385,7 @@ address   name
 00001b27  _system_post_cinit             
 00001b29  flashLED                       
 00001b73  checkPushButton                
-00001c25  main                           
+00001c2f  main                           
 00001c95  __aeabi_ddiv                   
 00001dcb  GPIOPadConfigSet               
 00001efd  SysCtlClockGet                 
